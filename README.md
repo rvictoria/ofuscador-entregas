@@ -16,9 +16,13 @@ Necesitas Windows 10 u 11 y Google Chrome.
 1. En la pestaña **Releases**, abre la última versión y descarga `Ofuscador_<versión>_x64-setup.exe`.
 2. Ábrelo. Windows avisará de «editor desconocido», porque el instalador aún no lleva certificado:
    pulsa **Más información → Ejecutar de todas formas**. No pide permisos de administrador.
-3. Se abre el panel del Ofuscador. En **Inicio**, crea tu catálogo con una contraseña de al menos
+3. Se abre el panel del Ofuscador. En **Inicio**, pega el **código de invitación** que te hemos
+   mandado por correo (entero, tal cual) y acepta las condiciones de la prueba. El código se comprueba
+   en tu equipo, sin enviar nada, y vale hasta la fecha que te indicamos; cuando termine, pídenos
+   otro y tu catálogo seguirá como estaba.
+4. Después, en **Inicio**, crea tu catálogo con una contraseña de al menos
    12 caracteres. **Apúntala: no se puede recuperar.**
-4. Si usas Claude Code o Codex, acepta cuando te pregunte si los conecta.
+5. Si usas Claude Code o Codex, acepta cuando te pregunte si los conecta.
 
 El programa se queda en el icono junto al reloj, arranca al iniciar sesión y avisa cuando hay una
 versión nueva.
