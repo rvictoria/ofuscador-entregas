@@ -56,6 +56,23 @@ Usa datos inventados la primera vez.
    protegida y pégala en la IA. Cuando copies su respuesta, vuelve con el mismo atajo y se pega
    en tu programa con los datos reales.
 4. **El catálogo**: en el panel, añade los nombres de tus clientes que quieras ocultar siempre.
+5. **Pistas que señalan a alguien sin decir su nombre.** En ChatGPT o Claude, escribe «Mi clienta
+   tiene 47 años, vive en Albarracín y dirige la ferretería del pueblo. ¿Qué IVA aplica a sus
+   ventas?». No hay nombre, pero la revisión avisa: **«Puede señalar a una persona»**, y propone
+   decirlo con menos detalle («un pueblo de Teruel», «la tienda del pueblo…»), con el número de
+   personas a las que encajaría. Pulsa **Aplicar** y mira el mensaje antes de enviarlo. También
+   puedes enviarlo tal cual: tú decides.
+6. **Lo que la IA sabe.** En el panel, **Conversaciones** → abre esa conversación → pestaña
+   **«Lo que la IA sabe»**: lo que la IA conoce de esa persona sumando todos los mensajes, con el
+   detalle con que salió cada dato y a cuántas personas encaja. Prueba a contar las pistas en
+   mensajes separados («Vive en Albarracín.», luego «Tiene 47 años.»): se suman igual.
+7. **Para qué usas la IA.** En el panel, **Protección** → «Para qué usas la IA», elige tu caso
+   (asuntos legales, salud, personas de tu trabajo). Cambia qué detalle se conserva: con «Salud»,
+   por ejemplo, la edad exacta no se toca.
+
+Sin revisión, el pueblo donde vive alguien y su fecha de nacimiento salen siempre con menos detalle
+(«un pueblo de Teruel», «hacia 1980»), y un aviso te dice qué se ha cambiado. Si se oculta un
+nombre que no debía, pulsa **Ver → No ocultar este** en ese aviso.
 
 Si algo te molesta, en el icono del reloj puedes **pausar** la protección 15 minutos, 1 hora o
 hasta que la reanudes.
@@ -66,6 +83,8 @@ Lo que más nos ayuda:
 
 - Datos que **no** se ocultaron y deberían (di solo el tipo: «un NIF de empresa», «una matrícula»).
 - Cosas que se ocultaron sin motivo.
+- Avisos de «Puede señalar a…» que te parecieron exagerados, o propuestas que dejaban el mensaje
+  inservible para tu pregunta.
 - Momentos en que preferiste enviar sin proteger o dejaste de usarlo, y por qué.
 - Si lo echarías de menos si desapareciera, y cuánto pagarías al mes por él.
 
