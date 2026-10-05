@@ -56,6 +56,9 @@ Usa datos inventados la primera vez.
    protegida y pégala en la IA. Cuando copies su respuesta, vuelve con el mismo atajo y se pega
    en tu programa con los datos reales.
 4. **El catálogo**: en el panel, añade los nombres de tus clientes que quieras ocultar siempre.
+   Si usas códigos propios (un número de empleado como «A00000Z»), selecciona uno en la revisión,
+   marca **«Y todo lo que tenga la misma forma»** y di qué es: desde entonces se ocultan todos los
+   que tengan esa forma. Se ven y se borran en el panel, Catálogo, **«Formas aprendidas»**.
 5. **Pistas que señalan a alguien sin decir su nombre.** En ChatGPT o Claude, escribe «Mi clienta
    tiene 47 años, vive en Albarracín y dirige la ferretería del pueblo. ¿Qué IVA aplica a sus
    ventas?». No hay nombre, pero la revisión avisa: **«Puede señalar a una persona»**, y propone
