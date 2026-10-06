@@ -76,7 +76,8 @@ Usa datos inventados la primera vez.
 8. **Fotos y caras.** Adjunta una foto o una captura con alguien (PNG, JPEG, WebP, GIF, TIFF, BMP
    AVIF o una foto HEIC del iPhone). Se adjunta una copia con las caras y los datos escritos bajo
    recuadros negros; una foto HEIC o una imagen AVIF llega como JPEG. Lo mismo pasa con las fotos dentro de un Word,
-   un PowerPoint o un PDF. En fotos de grupo, mira la copia antes de enviarla: alguna cara pequeña o
+   un PowerPoint o un PDF, y en las de un Word, un Excel o un PowerPoint también se tapan los datos escritos
+   (un pantallazo con un DNI, por ejemplo). En fotos de grupo, mira la copia antes de enviarla: alguna cara pequeña o
    de perfil puede escaparse.
 
 Sin revisión, el pueblo donde vive alguien y su fecha de nacimiento salen siempre con menos detalle
