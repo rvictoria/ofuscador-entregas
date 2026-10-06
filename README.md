@@ -73,6 +73,12 @@ Usa datos inventados la primera vez.
    (asuntos legales, salud, personas de tu trabajo). Cambia qué detalle se conserva: con «Salud»,
    por ejemplo, la edad exacta no se toca.
 
+8. **Fotos y caras.** Adjunta una foto o una captura con alguien (PNG, JPEG, WebP, GIF, TIFF, BMP
+   AVIF o una foto HEIC del iPhone). Se adjunta una copia con las caras y los datos escritos bajo
+   recuadros negros; una foto HEIC o una imagen AVIF llega como JPEG. Lo mismo pasa con las fotos dentro de un Word,
+   un PowerPoint o un PDF. En fotos de grupo, mira la copia antes de enviarla: alguna cara pequeña o
+   de perfil puede escaparse.
+
 Sin revisión, el pueblo donde vive alguien y su fecha de nacimiento salen siempre con menos detalle
 («un pueblo de Teruel», «hacia 1980»), y un aviso te dice qué se ha cambiado. Si se oculta un
 nombre que no debía, pulsa **Ver → No ocultar este** en ese aviso.
