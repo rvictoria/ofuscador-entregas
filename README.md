@@ -55,21 +55,21 @@ Usa datos inventados la primera vez.
    pulsa **Ctrl+Alt+O**. Se abre «Proteger texto» con ese texto ya revisado: copia la versión
    protegida y pégala en la IA. Cuando copies su respuesta, vuelve con el mismo atajo y se pega
    en tu programa con los datos reales.
-4. **El catálogo**: en el panel, añade los nombres de tus clientes que quieras ocultar siempre.
+4. **El catálogo**: en el panel, **Mis datos**, añade los nombres de tus clientes que quieras ocultar siempre.
    Si usas códigos propios (un número de empleado como «A00000Z»), selecciona uno en la revisión,
    marca **«Y todo lo que tenga la misma forma»** y di qué es: desde entonces se ocultan todos los
-   que tengan esa forma. Se ven y se borran en el panel, Catálogo, **«Formas aprendidas»**.
+   que tengan esa forma. Se ven y se borran en el panel, Mis datos, **«Formas aprendidas»**.
 5. **Pistas que señalan a alguien sin decir su nombre.** En ChatGPT o Claude, escribe «Mi clienta
    tiene 47 años, vive en Albarracín y dirige la ferretería del pueblo. ¿Qué IVA aplica a sus
    ventas?». No hay nombre, pero la revisión avisa: **«Puede señalar a una persona»**, y propone
    decirlo con menos detalle («un pueblo de Teruel», «la tienda del pueblo…»), con el número de
    personas a las que encajaría. Pulsa **Aplicar** y mira el mensaje antes de enviarlo. También
    puedes enviarlo tal cual: tú decides.
-6. **Lo que la IA sabe.** En el panel, **Conversaciones** → abre esa conversación → pestaña
+6. **Lo que la IA sabe.** En el panel, **Historial** → **Conversaciones** → abre esa conversación → pestaña
    **«Lo que la IA sabe»**: lo que la IA conoce de esa persona sumando todos los mensajes, con el
    detalle con que salió cada dato y a cuántas personas encaja. Prueba a contar las pistas en
    mensajes separados («Vive en Albarracín.», luego «Tiene 47 años.»): se suman igual.
-7. **Para qué usas la IA.** En el panel, **Protección** → «Para qué usas la IA», elige tu caso
+7. **Para qué usas la IA.** En el panel, **Ajustes** → **Protección** → «Para qué usas la IA», elige tu caso
    (asuntos legales, salud, personas de tu trabajo). Cambia qué detalle se conserva: con «Salud»,
    por ejemplo, la edad exacta no se toca.
 
@@ -98,7 +98,7 @@ Lo que más nos ayuda:
 - Momentos en que preferiste enviar sin proteger o dejaste de usarlo, y por qué.
 - Si lo echarías de menos si desapareciera, y cuánto pagarías al mes por él.
 
-En el panel, **Actividad** muestra solo recuentos, tipos y decisiones (nunca textos ni datos):
+En el panel, **Historial** → **Actividad** muestra solo recuentos, tipos y decisiones (nunca textos ni datos):
 una captura de esa pantalla nos sirve. **No nos envíes textos con datos reales de clientes.**
 
 ## Desinstalar
