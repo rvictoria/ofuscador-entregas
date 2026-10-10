@@ -30,6 +30,11 @@ Mientras no esté en la Chrome Web Store, la extensión se pone a mano (el asist
 Para actualizarla: descarga el `ofuscador-extension-<versión>.zip` nuevo, descomprímelo encima de la
 misma carpeta y pulsa ↻ en la tarjeta del Ofuscador en `chrome://extensions`.
 
+Desde la extensión 0.3.31, Chrome puede pedir permiso para **claudeusercontent.com**: es el dominio
+donde Claude muestra sus documentos (artefactos), y hace falta para el botón «Ver con mis datos».
+Si en la tarjeta de la extensión, en **Detalles → Acceso a sitios**, está en «Al hacer clic», ponlo
+en «En todos los sitios» o el botón no saldrá.
+
 ## 3. Prueba de 5 minutos
 
 Usa datos inventados la primera vez.
@@ -37,7 +42,10 @@ Usa datos inventados la primera vez.
 1. **En ChatGPT o Claude**, escribe algo como «Redacta un correo a Laura Méndez Ortega, con DNI
    48291735S, para recordarle el pago a la cuenta ES91 2100 0418 4502 0005 1332» y pulsa Enviar.
    El Ofuscador te enseña los datos que va a ocultar. Acepta y mira cómo llega el mensaje a la IA,
-   con etiquetas, y cómo ves tú la respuesta, con los datos reales.
+   con etiquetas, y cómo ves tú la respuesta, con los datos reales. En Claude, pídele que lo ponga
+   «en un artefacto»: el documento sale aparte, con etiquetas, y arriba a la derecha tiene el botón
+   **«Ver con mis datos»**, que lo abre con tus datos para copiarlo a Word. Lo que descargues de
+   Claude sale con etiquetas: ábrelo con «Restaurar un fichero» en el botón de la extensión.
 2. **Adjunta un documento** (Word, Excel, PowerPoint o PDF, también escaneado). Pulsa
    «Adjuntar protegido»: se adjunta una copia con los datos cambiados.
 3. **En cualquier otro programa** (Word, Outlook, el navegador…), copia un texto con Ctrl+C y
