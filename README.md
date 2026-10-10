@@ -44,7 +44,10 @@ Usa datos inventados la primera vez.
    pulsa **Ctrl+Alt+O**. Se abre «Proteger texto» con ese texto ya revisado: copia la versión
    protegida y pégala en la IA. Cuando copies su respuesta, vuelve con el mismo atajo y se pega
    en tu programa con los datos reales. A la derecha ves qué se oculta y los avisos; lo menos
-   habitual está en «Más». Cada conversación se puede renombrar u olvidar desde su «⋯».
+   habitual está en «Más». Cada documento, correo o chat tiene su conversación: la próxima vez que
+   pulses el atajo desde él, vuelve a la misma, y la ventana te dice en cuál estás. Cada
+   conversación se puede renombrar u olvidar desde su «⋯». En ChatGPT o Claude no hace falta este
+   paso: escribe directamente en su chat, que ahí protege la extensión.
 4. **El catálogo**: en el panel, **Mis datos**, añade los nombres de tus clientes que quieras ocultar siempre.
    Si usas códigos propios (un número de empleado como «A00000Z»), selecciona uno en la revisión,
    marca **«Y todo lo que tenga la misma forma»** y di qué es: desde entonces se ocultan todos los
