@@ -1,7 +1,7 @@
 # Ofuscador · guía para probarlo
 
-El Ofuscador protege los datos de tus clientes antes de que lleguen a una IA (ChatGPT, Claude,
-Claude Code, Codex). Cambia cada nombre, DNI, IBAN, dirección… por una etiqueta como
+El Ofuscador protege los datos de tus clientes antes de que lleguen a una IA: ChatGPT o Claude en
+el navegador, cualquier otro programa con un atajo y, si programas, Claude Code y Codex. Cambia cada nombre, DNI, IBAN, dirección… por una etiqueta como
 `[PERSONA_1]`. Guarda en tu equipo, cifrado, qué hay detrás de cada etiqueta, y vuelve a poner los
 datos reales cuando lees la respuesta. No hay servidor: nada sale de tu equipo salvo el texto ya
 protegido que tú envías a la IA.
@@ -11,35 +11,24 @@ responsable de los datos de tus clientes.
 
 Necesitas Windows 10 u 11 y Google Chrome.
 
-## 1. Instalar el programa (5 minutos)
+## 1. Instalar (5 minutos)
 
 1. En la pestaña **Releases**, abre la última versión y descarga `Ofuscador_<versión>_x64-setup.exe`.
 2. Ábrelo. Windows avisará de «editor desconocido», porque el instalador aún no lleva certificado:
    pulsa **Más información → Ejecutar de todas formas**. No pide permisos de administrador.
-3. Se abre el panel del Ofuscador. En **Inicio**, pega el **código de invitación** que te hemos
-   mandado por correo (entero, tal cual) y acepta las condiciones de la prueba. El código se comprueba
-   en tu equipo, sin enviar nada, y vale hasta la fecha que te indicamos; cuando termine, pídenos
-   otro y tu catálogo seguirá como estaba.
-4. Después, en **Inicio**, crea tu catálogo con una contraseña de al menos
-   12 caracteres. **Apúntala: no se puede recuperar.**
-5. Si usas Claude Code o Codex, acepta cuando te pregunte si los conecta.
+3. Se abre el **asistente de bienvenida**. Síguelo: te pide el **código de invitación** que te hemos
+   mandado por correo, te ayuda a crear tu catálogo (**apunta la contraseña: no se puede
+   recuperar**), te pregunta dónde usas la IA y, según lo que marques, te guía para poner la
+   extensión de Chrome, probar el atajo de «Proteger texto» y añadir tus primeros clientes.
 
 El programa se queda en el icono junto al reloj, arranca al iniciar sesión y avisa cuando hay una
-versión nueva.
+versión nueva. El asistente se puede repetir en **Ajustes → General**.
 
-## 2. Instalar la extensión de Chrome (3 minutos)
+## 2. Actualizar la extensión de Chrome
 
-Mientras no esté en la Chrome Web Store se instala a mano:
-
-1. En la misma versión de **Releases**, descarga `ofuscador-extension-<versión>.zip` y
-   descomprímelo en una carpeta que no vayas a borrar, por ejemplo `Documentos\Ofuscador extension`.
-2. En Chrome, escribe `chrome://extensions` en la barra de direcciones.
-3. Activa **Modo de desarrollador** (arriba a la derecha).
-4. Pulsa **Cargar descomprimida** y elige esa carpeta.
-5. Recarga las pestañas de chatgpt.com o claude.ai que tuvieras abiertas.
-
-Para actualizarla: descomprime el zip nuevo encima de la misma carpeta y pulsa ↻ en la tarjeta del
-Ofuscador en `chrome://extensions`.
+Mientras no esté en la Chrome Web Store, la extensión se pone a mano (el asistente te enseña cómo).
+Para actualizarla: descarga el `ofuscador-extension-<versión>.zip` nuevo, descomprímelo encima de la
+misma carpeta y pulsa ↻ en la tarjeta del Ofuscador en `chrome://extensions`.
 
 ## 3. Prueba de 5 minutos
 
