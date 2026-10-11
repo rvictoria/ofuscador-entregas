@@ -57,6 +57,8 @@ Usa datos inventados la primera vez.
    conversación se puede renombrar u olvidar desde su «⋯». En ChatGPT o Claude no hace falta este
    paso: escribe directamente en su chat, que ahí protege la extensión.
 4. **El catálogo**: en el panel, **Mis datos**, añade los nombres de tus clientes que quieras ocultar siempre.
+   Si ya los tienes en un Excel o un CSV, pulsa **«Traer clientes…»**: elige la hoja, marca los que
+   quieras y se añaden de una vez.
    Si usas códigos propios (un número de empleado como «A00000Z»), selecciona uno en la revisión,
    marca **«Y todo lo que tenga la misma forma»** y di qué es: desde entonces se ocultan todos los
    que tengan esa forma. Se ven y se borran en el panel, Mis datos, **«Formas aprendidas»**.
@@ -80,6 +82,13 @@ Usa datos inventados la primera vez.
    un PowerPoint o un PDF, y en las de un Word, un Excel o un PowerPoint también se tapan los datos escritos
    (un pantallazo con un DNI, por ejemplo). En fotos de grupo, mira la copia antes de enviarla: alguna cara pequeña o
    de perfil puede escaparse.
+
+9. **Lo que ya compartiste.** Pide en claude.ai tu exportación (Ajustes › Privacidad › Exportar
+   datos). Llega por correo un fichero «manifest…json» con un enlace por cada ZIP: ábrelos en el
+   navegador donde tienes Claude, el mismo día (caducan a las 24 horas). En el panel, **Historial** →
+   **Lo ya compartido**, elige juntos los ZIP descargados. En unos minutos verás qué datos de tus
+   clientes aparecen en tus conversaciones anteriores al Ofuscador, de quién es cada uno y dónde.
+   Desde ahí puedes añadirlos a Mis datos. Al terminar, borra los ZIP de Descargas.
 
 Sin revisión, el pueblo donde vive alguien y su fecha de nacimiento salen siempre con menos detalle
 («un pueblo de Teruel», «hacia 1980»), y un aviso te dice qué se ha cambiado. Si se oculta un
