@@ -86,7 +86,7 @@ Usa datos inventados la primera vez.
 9. **Lo que ya compartiste.** Pide en claude.ai tu exportación (Ajustes › Privacidad › Exportar
    datos). Llega por correo un fichero «manifest…json» con un enlace por cada ZIP: ábrelos en el
    navegador donde tienes Claude, el mismo día (caducan a las 24 horas). En el panel, **Historial** →
-   **Lo ya compartido**, elige juntos los ZIP descargados. En unos minutos verás qué datos de tus
+   **Lo ya compartido**, elige juntos los ZIP descargados (todos menos frames). En unos minutos verás qué datos de tus
    clientes aparecen en tus conversaciones anteriores al Ofuscador, de quién es cada uno y dónde.
    Desde ahí puedes añadirlos a Mis datos. Al terminar, borra los ZIP de Descargas.
 
