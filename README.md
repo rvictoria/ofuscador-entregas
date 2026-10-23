@@ -66,7 +66,14 @@ Usa datos inventados la primera vez.
    quieras y se añaden de una vez.
    Si usas códigos propios (un número de empleado como «A00000Z»), selecciona uno en la revisión,
    marca **«Y todo lo que tenga la misma forma»** y di qué es: desde entonces se ocultan todos los
-   que tengan esa forma. Se ven y se borran en el panel, Mis datos, **«Formas aprendidas»**.
+   que tengan esa forma. Vale también para códigos con una marca en mayúsculas al principio o al
+   final: de «XX_Halcón» se aprende todo lo que empieza por «XX_». Se ven y se borran en el panel,
+   Mis datos, **«Formas aprendidas»**. Al seleccionar algo en la revisión también puedes pulsar
+   **«Escribir una expresión regular…»**: te dice qué encuentra en el mensaje mientras la escribes. En el
+   panel puedes escribir una expresión regular (o afinar
+   la de una forma aprendida con **«Editar como expresión»**), probarla con un texto tuyo antes de
+   guardarla, y activar **plantillas** ya hechas: códigos de Jira, incidencias, facturas, usuarios
+   de Windows o de redes sociales.
 5. **Pistas que señalan a alguien sin decir su nombre.** En ChatGPT o Claude, escribe «Mi clienta
    tiene 47 años, vive en Albarracín y dirige la ferretería del pueblo. ¿Qué IVA aplica a sus
    ventas?». No hay nombre, pero la revisión avisa: **«Puede señalar a una persona»**, y propone
