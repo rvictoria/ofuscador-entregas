@@ -20,7 +20,8 @@ Necesitas Windows 10 u 11 y Google Chrome.
    mandado por correo y te muestra la **licencia de uso** del piloto, que puedes guardar y que tienes
    que aceptar para seguir. Después te ayuda a crear tu catálogo (**apunta la contraseña: no se puede
    recuperar**), te pregunta dónde usas la IA y, según lo que marques, te guía para poner la
-   extensión de Chrome, probar el atajo de «Proteger texto» y añadir tus primeros clientes.
+   extensión de Chrome, probar el atajo de «Proteger texto», añadir tus primeros clientes y activar
+   los códigos que uses en tu trabajo (de Jira, facturas, usuarios de Windows o de redes…).
 
 El programa se queda en el icono junto al reloj, arranca al iniciar sesión y avisa cuando hay una
 versión nueva. El asistente se puede repetir en **Ajustes → General**.
