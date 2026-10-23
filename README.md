@@ -17,7 +17,8 @@ Necesitas Windows 10 u 11 y Google Chrome.
 2. Ábrelo. Windows avisará de «editor desconocido», porque el instalador aún no lleva certificado:
    pulsa **Más información → Ejecutar de todas formas**. No pide permisos de administrador.
 3. Se abre el **asistente de bienvenida**. Síguelo: te pide el **código de invitación** que te hemos
-   mandado por correo, te ayuda a crear tu catálogo (**apunta la contraseña: no se puede
+   mandado por correo y te muestra la **licencia de uso** del piloto, que puedes guardar y que tienes
+   que aceptar para seguir. Después te ayuda a crear tu catálogo (**apunta la contraseña: no se puede
    recuperar**), te pregunta dónde usas la IA y, según lo que marques, te guía para poner la
    extensión de Chrome, probar el atajo de «Proteger texto» y añadir tus primeros clientes.
 
