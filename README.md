@@ -24,11 +24,15 @@ Necesitas Windows 10 u 11 y Google Chrome.
 El programa se queda en el icono junto al reloj, arranca al iniciar sesión y avisa cuando hay una
 versión nueva. El asistente se puede repetir en **Ajustes → General**.
 
-## 2. Actualizar la extensión de Chrome
+## 2. La extensión de Chrome se actualiza con el programa
 
-Mientras no esté en la Chrome Web Store, la extensión se pone a mano (el asistente te enseña cómo).
-Para actualizarla: descarga el `ofuscador-extension-<versión>.zip` nuevo, descomprímelo encima de la
-misma carpeta y pulsa ↻ en la tarjeta del Ofuscador en `chrome://extensions`.
+La extensión viene dentro del Ofuscador, en la carpeta `extension` de su instalación (el asistente te da la
+ruta para copiarla). Cárgala desde ahí una sola vez, con «Cargar descomprimida» en `chrome://extensions`.
+Cuando el programa se actualiza, la carpeta cambia con él y la extensión se recarga sola la próxima vez
+que abres Chrome o la usas: no tienes que descargar nada ni pulsar ↻.
+
+Si la cargaste desde otra carpeta (por ejemplo, de un `.zip` anterior), la extensión te lo dirá en su
+ventana: quítala y vuelve a cargarla desde la carpeta `extension` del Ofuscador.
 
 Desde la extensión 0.3.31, Chrome puede pedir permiso para **claudeusercontent.com**: es el dominio
 donde Claude muestra sus documentos (artefactos), y hace falta para el botón «Ver con mis datos».
@@ -66,8 +70,9 @@ Usa datos inventados la primera vez.
    tiene 47 años, vive en Albarracín y dirige la ferretería del pueblo. ¿Qué IVA aplica a sus
    ventas?». No hay nombre, pero la revisión avisa: **«Puede señalar a una persona»**, y propone
    decirlo con menos detalle («un pueblo de Teruel», «la tienda del pueblo…»), con el número de
-   personas a las que encajaría. Pulsa **Aplicar** y mira el mensaje antes de enviarlo. También
-   puedes enviarlo tal cual: tú decides.
+   personas a las que encajaría. Pulsa **Generalizar** y mira el mensaje antes de enviarlo: cambia solo
+   donde se leyó esa pista (no otra mención del mismo nombre, como un juzgado), y debajo sale «Generalizado: … deshacer» por
+   si prefieres volver atrás. También puedes enviarlo tal cual: tú decides.
 6. **Lo que la IA sabe.** En el panel, **Historial** → **Conversaciones** → abre esa conversación → pestaña
    **«Lo que la IA sabe»**: lo que la IA conoce de esa persona sumando todos los mensajes, con el
    detalle con que salió cada dato y a cuántas personas encaja. Prueba a contar las pistas en
@@ -105,6 +110,9 @@ Lo que más nos ayuda:
 - Cosas que se ocultaron sin motivo.
 - Avisos de «Puede señalar a…» que te parecieron exagerados, o propuestas que dejaban el mensaje
   inservible para tu pregunta.
+- Si escribes sobre **varias personas a la vez** (tu familia, una plantilla, los herederos de un caso):
+  avisos de una persona que en realidad no se reconocía, o personas que sí se reconocían y no
+  avisó (di solo el tipo de pista, no los datos).
 - Momentos en que preferiste enviar sin proteger o dejaste de usarlo, y por qué.
 - Si lo echarías de menos si desapareciera, y cuánto pagarías al mes por él.
 
