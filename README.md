@@ -1,7 +1,8 @@
 # Ofuscador · guía para probarlo
 
-El Ofuscador protege los datos de tus clientes antes de que lleguen a una IA: ChatGPT o Claude en
-el navegador, cualquier otro programa con un atajo y, si programas, Claude Code y Codex. Cambia cada nombre, DNI, IBAN, dirección… por una etiqueta como
+El Ofuscador protege los datos de tus clientes antes de que lleguen a una IA: ChatGPT, Claude,
+Gemini, Copilot y el Modo IA de Google en el navegador, cualquier otro programa con un atajo y, si
+programas, Claude Code y Codex. Cambia cada nombre, DNI, IBAN, dirección… por una etiqueta como
 `[PERSONA_1]`. Guarda en tu equipo, cifrado, qué hay detrás de cada etiqueta, y vuelve a poner los
 datos reales cuando lees la respuesta. No hay servidor: nada sale de tu equipo salvo el texto ya
 protegido que tú envías a la IA.
@@ -9,7 +10,16 @@ protegido que tú envías a la IA.
 Es una versión de prueba. **Revisa siempre la lista de datos antes de enviar.** Sigues siendo
 responsable de los datos de tus clientes.
 
-Necesitas Windows 10 u 11 y Google Chrome.
+## Lo que necesitas
+
+| | |
+|---|---|
+| Sistema | Windows 10 u 11 de 64 bits. No hace falta ser administrador. |
+| Navegador | Google Chrome o Microsoft Edge. |
+| Memoria | 8 GB de RAM o más. El Ofuscador usa unos 400 MB mientras está abierto, y hasta unos 600 MB más mientras lee un documento largo. |
+| Procesador | Cualquiera de los últimos años. Los mensajes se revisan en menos de un segundo; un documento de unas 60 páginas tarda unos 20 segundos con 8 núcleos y unos 30 con 4 o menos. |
+| Disco | Unos 300 MB instalado, más los 256 MB del instalador, que puedes borrar después. |
+| Otros | WebView2, que ya viene con Windows 11 y con casi todos los Windows 10. Si falta, el instalador lo descarga: instala con conexión a internet. |
 
 ## 1. Instalar (5 minutos)
 
@@ -20,16 +30,18 @@ Necesitas Windows 10 u 11 y Google Chrome.
    mandado por correo y te muestra la **licencia de uso** del piloto, que puedes guardar y que tienes
    que aceptar para seguir. Después te ayuda a crear tu catálogo (**apunta la contraseña: no se puede
    recuperar**), te pregunta dónde usas la IA y, según lo que marques, te guía para poner la
-   extensión de Chrome, probar el atajo de «Proteger texto», añadir tus primeros clientes y activar
+   extensión en Chrome o en Edge, probar el atajo de «Proteger texto», añadir tus primeros clientes y activar
    los códigos que uses en tu trabajo (de Jira, facturas, usuarios de Windows o de redes…).
 
 El programa se queda en el icono junto al reloj, arranca al iniciar sesión y avisa cuando hay una
 versión nueva. El asistente se puede repetir en **Ajustes → General**.
 
-## 2. La extensión de Chrome se actualiza con el programa
+## 2. La extensión se actualiza con el programa
 
 La extensión viene dentro del Ofuscador, en la carpeta `extension` de su instalación (el asistente te da la
-ruta para copiarla). Cárgala desde ahí una sola vez, con «Cargar descomprimida» en `chrome://extensions`.
+ruta para copiarla). Cárgala desde ahí una sola vez: en Chrome, con «Cargar descomprimida» en
+`chrome://extensions`; en Edge, con «Cargar desempaquetada» en `edge://extensions`. En los dos hay que
+activar antes el «Modo de desarrollador». Si usas los dos navegadores, cárgala en los dos.
 Cuando el programa se actualiza, la carpeta cambia con él y la extensión se recarga sola la próxima vez
 que abres Chrome o la usas: no tienes que descargar nada ni pulsar ↻.
 
@@ -41,29 +53,38 @@ donde Claude muestra sus documentos (artefactos), y hace falta para el botón «
 Si en la tarjeta de la extensión, en **Detalles → Acceso a sitios**, está en «Al hacer clic», ponlo
 en «En todos los sitios» o el botón no saldrá.
 
+**Dónde protege la extensión:** ChatGPT, claude.ai, Gemini, Copilot (copilot.com,
+copilot.microsoft.com y el de Microsoft 365) y el Modo IA de Google. Al Modo IA entra por
+**google.com/ai** o con el botón «Modo IA» de la portada de Google, que te lleva ahí. **No escribas
+datos en el cuadro de búsqueda normal de Google:** le manda a Google lo que escribes mientras lo
+escribes, antes de que nada pueda protegerlo. Si ya habías escrito algo al pulsar «Modo IA», el
+Ofuscador lo para y te avisa. Las imágenes y los ficheros que adjuntes con el «+» de ese cuadro sí
+se protegen.
+
 ## 3. Prueba de 5 minutos
 
 Usa datos inventados la primera vez.
 
-1. **En ChatGPT o Claude**, escribe algo como «Redacta un correo a Laura Méndez Ortega, con DNI
+1. **En ChatGPT, Claude, Gemini, Copilot o el Modo IA de Google**, escribe algo como «Redacta un correo a Laura Méndez Ortega, con DNI
    48291735S, para recordarle el pago a la cuenta ES91 2100 0418 4502 0005 1332» y pulsa Enviar.
    El Ofuscador te enseña los datos que va a ocultar. Acepta y mira cómo llega el mensaje a la IA,
    con etiquetas, y cómo ves tú la respuesta, con los datos reales. En Claude, pídele que lo ponga
    «en un artefacto»: el documento sale aparte, con etiquetas, y arriba a la derecha tiene el botón
    **«Ver con mis datos»**, que lo abre con tus datos para copiarlo a Word. Lo que descargues de
    Claude sale con etiquetas: ábrelo con «Restaurar un fichero» en el botón de la extensión.
-2. **Adjunta un documento** (Word, Excel, PowerPoint o PDF, también escaneado). Pulsa
-   «Adjuntar protegido»: se adjunta una copia con los datos cambiados.
+2. **Adjunta un documento** (Word, Excel, PowerPoint o PDF, también escaneado), eligiéndolo,
+   arrastrándolo o pegándolo. Pulsa «Adjuntar protegido»: se adjunta una copia con los datos
+   cambiados.
 3. **En cualquier otro programa** (Word, Outlook, el navegador…), copia un texto con Ctrl+C y
    pulsa **Ctrl+Alt+O**. Se abre «Proteger texto» con ese texto ya revisado: copia la versión
    protegida y pégala en la IA. Cuando copies su respuesta, vuelve con el mismo atajo y se pega
    en tu programa con los datos reales. A la derecha ves qué se oculta y los avisos; lo menos
    habitual está en «Más». Cada documento, correo o chat tiene su conversación: la próxima vez que
    pulses el atajo desde él, vuelve a la misma, y la ventana te dice en cuál estás. Cada
-   conversación se puede renombrar u olvidar desde su «⋯». En ChatGPT o Claude no hace falta este
-   paso: escribe directamente en su chat, que ahí protege la extensión.
+   conversación se puede renombrar u olvidar desde su «⋯». En los chats donde está la extensión no
+   hace falta este paso: escribe directamente en ellos, que ahí protege la extensión.
 4. **El catálogo**: en el panel, **Mis datos**, añade los nombres de tus clientes que quieras ocultar siempre.
-   Si ya los tienes en un Excel o un CSV, pulsa **«Traer clientes…»**: elige la hoja, marca los que
+   Si ya los tienes en un Excel o un CSV, pulsa **«Importar nombres…»**: elige la hoja, marca los que
    quieras y se añaden de una vez.
    Si usas códigos propios (un número de empleado como «A00000Z»), selecciona uno en la revisión,
    marca **«Y todo lo que tenga la misma forma»** y di qué es: desde entonces se ocultan todos los
@@ -75,7 +96,7 @@ Usa datos inventados la primera vez.
    la de una forma aprendida con **«Editar como expresión»**), probarla con un texto tuyo antes de
    guardarla, y activar **plantillas** ya hechas: códigos de Jira, incidencias, facturas, usuarios
    de Windows o de redes sociales.
-5. **Pistas que señalan a alguien sin decir su nombre.** En ChatGPT o Claude, escribe «Mi clienta
+5. **Pistas que señalan a alguien sin decir su nombre.** En cualquiera de esos chats, escribe «Mi clienta
    tiene 47 años, vive en Albarracín y dirige la ferretería del pueblo. ¿Qué IVA aplica a sus
    ventas?». No hay nombre, pero la revisión avisa: **«Puede señalar a una persona»**, y propone
    decirlo con menos detalle («un pueblo de Teruel», «la tienda del pueblo…»), con el número de
@@ -91,8 +112,9 @@ Usa datos inventados la primera vez.
    por ejemplo, la edad exacta no se toca.
 
 8. **Fotos y caras.** Adjunta una foto o una captura con alguien (PNG, JPEG, WebP, GIF, TIFF, BMP
-   AVIF o una foto HEIC del iPhone). Se adjunta una copia con las caras y los datos escritos bajo
-   recuadros negros; una foto HEIC o una imagen AVIF llega como JPEG. Lo mismo pasa con las fotos dentro de un Word,
+   AVIF o una foto HEIC del iPhone), aunque no lleve nada escrito. Antes de adjuntarla te enseña la
+   copia con las caras y los datos escritos bajo recuadros negros, y eliges «Adjuntar» o «No
+   adjuntar»; la original no llega al chat. Una foto HEIC o una imagen AVIF llega como JPEG. Lo mismo pasa con las fotos dentro de un Word,
    un PowerPoint o un PDF, y en las de un Word, un Excel o un PowerPoint también se tapan los datos escritos
    (un pantallazo con un DNI, por ejemplo). En fotos de grupo, mira la copia antes de enviarla: alguna cara pequeña o
    de perfil puede escaparse.
@@ -131,5 +153,5 @@ una captura de esa pantalla nos sirve. **No nos envíes textos con datos reales 
 ## Desinstalar
 
 Configuración de Windows → Aplicaciones → Ofuscador, y quita la extensión en
-`chrome://extensions`. Tus datos cifrados se quedan en `%APPDATA%\Ofuscador`: bórrala a mano si
+`chrome://extensions` (o `edge://extensions`). Tus datos cifrados se quedan en `%APPDATA%\Ofuscador`: bórrala a mano si
 quieres eliminarlos también.
