@@ -1,6 +1,6 @@
-# Ofuscador · guía para probarlo
+# Zenchai · guía para probarlo
 
-El Ofuscador protege los datos de tus clientes antes de que lleguen a una IA: ChatGPT, Claude,
+Zenchai protege los datos de tus clientes antes de que lleguen a una IA: ChatGPT, Claude,
 Gemini, Copilot y el Modo IA de Google en el navegador, cualquier otro programa con un atajo y, si
 programas, Claude Code y Codex. Cambia cada nombre, DNI, IBAN, dirección… por una etiqueta como
 `[PERSONA_1]`. Guarda en tu equipo, cifrado, qué hay detrás de cada etiqueta, y vuelve a poner los
@@ -16,7 +16,7 @@ responsable de los datos de tus clientes.
 |---|---|
 | Sistema | Windows 10 u 11 de 64 bits. No hace falta ser administrador. |
 | Navegador | Google Chrome o Microsoft Edge. |
-| Memoria | 8 GB de RAM o más. El Ofuscador usa unos 400 MB mientras está abierto, y hasta unos 600 MB más mientras lee un documento largo. |
+| Memoria | 8 GB de RAM o más. Zenchai usa unos 400 MB mientras está abierto, y hasta unos 600 MB más mientras lee un documento largo. |
 | Procesador | Cualquiera de los últimos años. Los mensajes se revisan en menos de un segundo; un documento de unas 60 páginas tarda unos 20 segundos con 8 núcleos y unos 30 con 4 o menos. |
 | Disco | Unos 300 MB instalado, más los 256 MB del instalador, que puedes borrar después. |
 | Otros | WebView2, que ya viene con Windows 11 y con casi todos los Windows 10. Si falta, el instalador lo descarga: instala con conexión a internet. |
@@ -38,7 +38,7 @@ versión nueva. El asistente se puede repetir en **Ajustes → General**.
 
 ## 2. La extensión se actualiza con el programa
 
-La extensión viene dentro del Ofuscador, en la carpeta `extension` de su instalación (el asistente te da la
+La extensión viene dentro de Zenchai, en la carpeta `extension` de su instalación (el asistente te da la
 ruta para copiarla). Cárgala desde ahí una sola vez: en Chrome, con «Cargar descomprimida» en
 `chrome://extensions`; en Edge, con «Cargar desempaquetada» en `edge://extensions`. En los dos hay que
 activar antes el «Modo de desarrollador». Si usas los dos navegadores, cárgala en los dos.
@@ -46,7 +46,7 @@ Cuando el programa se actualiza, la carpeta cambia con él y la extensión se re
 que abres Chrome o la usas: no tienes que descargar nada ni pulsar ↻.
 
 Si la cargaste desde otra carpeta (por ejemplo, de un `.zip` anterior), la extensión te lo dirá en su
-ventana: quítala y vuelve a cargarla desde la carpeta `extension` del Ofuscador.
+ventana: quítala y vuelve a cargarla desde la carpeta `extension` de Zenchai.
 
 Desde la extensión 0.3.31, Chrome puede pedir permiso para **claudeusercontent.com**: es el dominio
 donde Claude muestra sus documentos (artefactos), y hace falta para el botón «Ver con mis datos».
@@ -58,7 +58,7 @@ copilot.microsoft.com y el de Microsoft 365) y el Modo IA de Google. Al Modo IA 
 **google.com/ai** o con el botón «Modo IA» de la portada de Google, que te lleva ahí. **No escribas
 datos en el cuadro de búsqueda normal de Google:** le manda a Google lo que escribes mientras lo
 escribes, antes de que nada pueda protegerlo. Si ya habías escrito algo al pulsar «Modo IA», el
-Ofuscador lo para y te avisa. Las imágenes y los ficheros que adjuntes con el «+» de ese cuadro sí
+Zenchai lo para y te avisa. Las imágenes y los ficheros que adjuntes con el «+» de ese cuadro sí
 se protegen.
 
 ## 3. Prueba de 5 minutos
@@ -67,7 +67,7 @@ Usa datos inventados la primera vez.
 
 1. **En ChatGPT, Claude, Gemini, Copilot o el Modo IA de Google**, escribe algo como «Redacta un correo a Laura Méndez Ortega, con DNI
    48291735S, para recordarle el pago a la cuenta ES91 2100 0418 4502 0005 1332» y pulsa Enviar.
-   El Ofuscador te enseña los datos que va a ocultar. Acepta y mira cómo llega el mensaje a la IA,
+   Zenchai te enseña los datos que va a ocultar. Acepta y mira cómo llega el mensaje a la IA,
    con etiquetas, y cómo ves tú la respuesta, con los datos reales. En Claude, pídele que lo ponga
    «en un artefacto»: el documento sale aparte, con etiquetas, y arriba a la derecha tiene el botón
    **«Ver con mis datos»**, que lo abre con tus datos para copiarlo a Word. Lo que descargues de
@@ -123,7 +123,7 @@ Usa datos inventados la primera vez.
    datos). Llega por correo un fichero «manifest…json» con un enlace por cada ZIP: ábrelos en el
    navegador donde tienes Claude, el mismo día (caducan a las 24 horas). En el panel, **Historial** →
    **Lo ya compartido**, elige juntos los ZIP descargados (todos menos frames). En unos minutos verás qué datos de tus
-   clientes aparecen en tus conversaciones anteriores al Ofuscador, de quién es cada uno y dónde.
+   clientes aparecen en tus conversaciones anteriores a Zenchai, de quién es cada uno y dónde.
    Desde ahí puedes añadirlos a Mis datos. Al terminar, borra los ZIP de Descargas.
 
 Sin revisión, el pueblo donde vive alguien y su fecha de nacimiento salen siempre con menos detalle
