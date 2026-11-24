@@ -95,7 +95,10 @@ Usa datos inventados la primera vez.
    panel puedes escribir una expresión regular (o afinar
    la de una forma aprendida con **«Editar como expresión»**), probarla con un texto tuyo antes de
    guardarla, y activar **plantillas** ya hechas: códigos de Jira, incidencias, facturas, usuarios
-   de Windows o de redes sociales.
+   de Windows o de redes sociales. En la ficha de cada forma, **«Categoría»** la pone en una de las
+   tarjetas de Inicio (como «Personas») o en una categoría tuya («Datos internos», con **«Nueva
+   categoría…»**), que sale en Inicio como una tarjeta más para decidir si se oculta, avisa o queda
+   sin proteger, y cuenta aparte en el informe de protección.
 5. **Pistas que señalan a alguien sin decir su nombre.** En cualquiera de esos chats, escribe «Mi clienta
    tiene 47 años, vive en Albarracín y dirige la ferretería del pueblo. ¿Qué IVA aplica a sus
    ventas?». No hay nombre, pero la revisión avisa: **«Puede señalar a una persona»**, y propone
